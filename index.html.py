@@ -1,0 +1,172 @@
+<!-- UniResources Homepage - HTML + CSS Code --><!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniResources - All Notes, All PYQ, at One Place</title><style>
+    /* GLOBAL RESET */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    /* NAVBAR */
+    header {
+        width: 100%;
+        padding: 18px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .logo {
+        font-size: 26px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        margin-left: 35px;
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        opacity: 0.6;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        text-align: center;
+        padding: 120px 20px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .hero p {
+        margin-top: 12px;
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+    .buttons {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 14px 35px;
+        font-size: 18px;
+        border-radius: 30px; /* Rounded buttons */
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn-primary {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        opacity: 0.8;
+    }
+
+    .btn-secondary {
+        background-color: #f2f2f2;
+        color: #000;
+    }
+
+    .btn-secondary:hover {
+        opacity: 0.7;
+    }
+
+    /* SEMESTER SECTION */
+    .sem-container {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sem-card {
+        width: 350px;
+        padding: 30px;
+        border-radius: 18px;
+        background-color: #f8f8f8;
+        box-shadow: 0 0 8px rgba(0,0,0,0.08);
+        transition: transform 0.3s;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .sem-card:hover {
+        transform: translateY(-6px);
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 90px;
+        padding: 25px;
+        text-align: center;
+        background: #000;
+        color: white;
+        font-size: 14px;
+    }
+</style>
+
+</head>
+<body><!-- NAVBAR -->
+<header>
+    <div class="logo">◉ UniResources</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#semester">Notes</a>
+        <a href="#semester">PYQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <h1>All Notes, All PYQ,<br>At One Place</h1>
+    <p>One platform for every semester's study material</p>
+
+    <div class="buttons">
+        <button class="btn btn-primary">Start Learning</button>
+        <button class="btn btn-secondary">View PYQ</button>
+    </div>
+</div>
+
+<!-- SEMESTER SECTION -->
+<section id="semester" class="sem-container">
+    <div class="sem-card">
+        <h2>Semester 1</h2>
+        <br>
+        <p>📚 Class Notes</p>
+        <p>📄 Previous Year Questions</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 UniResources. All Rights Reserved.
+</footer>
+
+</body>
+</html>
